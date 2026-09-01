@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 
 import CircuitBackground from "./ui/CircuitBackground";
+import Link from "next/link";
 
 const opportunities = [
   {
@@ -183,50 +184,54 @@ export default function InvestmentOpportunity() {
 
           <div className="flex flex-wrap justify-center gap-4">
 
-            <button
-              className="
-                inline-flex
-                items-center
-                gap-2
-                rounded-full
-                bg-white
-                px-7
-                py-4
-                font-semibold
-                text-blue-950
-                transition
-                duration-300
-                hover:-translate-y-0.5
-                hover:shadow-xl
-              "
-            >
-              Contact QSI
-              <ArrowRight className="h-5 w-5" />
-            </button>
+            <Link
+  href="mailto:info@qld-semi.com"
+  className="
+    inline-flex
+    items-center
+    gap-2
+    rounded-full
+    bg-white
+    px-7
+    py-4
+    font-semibold
+    text-blue-950
+    transition
+    duration-300
+    hover:-translate-y-0.5
+    hover:shadow-xl
+  "
+>
+  Contact QSI
+  <ArrowRight className="h-5 w-5" />
+</Link>
 
-            <button
-              className="
-                inline-flex
-                items-center
-                gap-2
-                rounded-full
-                border
-                border-blue-300/50
-                bg-blue-900/30
-                px-7
-                py-4
-                font-semibold
-                text-white
-                transition
-                duration-300
-                hover:-translate-y-0.5
-                hover:border-blue-200
-                hover:bg-blue-800/50
-              "
-            >
-              <FileText className="h-5 w-5" />
-              Investment Prospectus
-            </button>
+<Link
+  href="/documents/QSI-Investment-Prospectus.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    inline-flex
+    items-center
+    gap-2
+    rounded-full
+    border
+    border-blue-300/50
+    bg-blue-900/30
+    px-7
+    py-4
+    font-semibold
+    text-white
+    transition
+    duration-300
+    hover:-translate-y-0.5
+    hover:border-blue-200
+    hover:bg-blue-800/50
+  "
+>
+  <FileText className="h-5 w-5" />
+  Investment Prospectus
+</Link>
 
           </div>
 

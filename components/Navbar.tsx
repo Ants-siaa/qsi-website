@@ -52,25 +52,27 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="#investment"
-            className="
-              rounded-full
-              bg-blue-700
-              px-6
-              py-3
-              text-sm
-              font-semibold
-              text-white
-              shadow-sm
-              transition
-              duration-300
-              hover:-translate-y-0.5
-              hover:bg-blue-800
-              hover:shadow-lg
-            "
-          >
-            Investment Prospectus
-          </Link>
+  href="/documents/QSI-Investment-Prospectus.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    rounded-full
+    bg-blue-700
+    px-6
+    py-3
+    text-sm
+    font-semibold
+    text-white
+    shadow-sm
+    transition
+    duration-300
+    hover:-translate-y-0.5
+    hover:bg-blue-800
+    hover:shadow-lg
+  "
+>
+  Investment Prospectus
+</Link>
 
         </div>
 
@@ -126,21 +128,28 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="#investment"
-              onClick={closeMenu}
-              className="
-                mt-2
-                rounded-full
-                bg-blue-700
-                px-6
-                py-3
-                text-center
-                font-semibold
-                text-white
-              "
-            >
-              Investment Prospectus
-            </Link>
+  href="/documents/QSI-Investment-Prospectus.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={closeMenu}
+  className="
+    rounded-full
+    bg-blue-700
+    px-6
+    py-3
+    text-sm
+    font-semibold
+    text-white
+    shadow-sm
+    transition
+    duration-300
+    hover:-translate-y-0.5
+    hover:bg-blue-800
+    hover:shadow-lg
+  "
+>
+  Investment Prospectus
+</Link>
 
           </div>
 
