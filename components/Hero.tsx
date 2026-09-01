@@ -52,7 +52,7 @@ export default function Hero() {
 
      
 
-     <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-6 pb-20 pt-28 lg:grid-cols-[1.1fr_0.9fr]">
+     <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-6 pb-6 lg:pb-20 pt-28 lg:grid-cols-[1.1fr_0.9fr]">
 
 
         {/* Left Content */}
@@ -191,7 +191,20 @@ export default function Hero() {
 
                {/* Right Visual */}
         {/* Right Visual */}
-<div className="relative flex items-center justify-center lg:-translate-x-12 lg:-translate-y-2">
+<div
+  className="
+    relative
+    -mt-8
+    flex
+    items-center
+    justify-center
+    pb-2
+    lg:mt-0
+    lg:pb-0
+    lg:-translate-x-12
+    lg:-translate-y-2
+  "
+>
   <SemiconductorWafer />
 </div>
 
