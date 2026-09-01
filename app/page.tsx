@@ -7,6 +7,7 @@ import TechnologyPlatform from "../components/TechnologyPlatform";
 import StrategicPartners from "../components/StrategicPartners";
 import InvestmentOpportunity from "../components/InvestmentOpportunity";
 import TeamSection from "../components/TeamSection";
+import Footer from "../components/Footer";
 
 
 
@@ -32,6 +33,8 @@ export default function Home() {
   <StrategicPartners />
 
   <InvestmentOpportunity />
+
+  <Footer />
 
 </main>
     </>

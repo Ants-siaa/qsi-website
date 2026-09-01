@@ -1,15 +1,58 @@
 import Link from "next/link";
+import CircuitBackground from "./ui/CircuitBackground";
 import SemiconductorWafer from "./ui/SemiconductorWafer";
+import {
+  Cpu,
+  Factory,
+  Zap,
+  MapPinned,
+} from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white pt-32">
+    <section className="relative overflow-hidden bg-white">
+      <CircuitBackground />
 
-      {/* Background glow */}
-      <div className="absolute left-1/2 top-20 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-100 blur-3xl opacity-60" />
+{/* Digital Sunrise */}
+<div className="pointer-events-none absolute inset-0 overflow-hidden">
 
+  {/* Main atmospheric glow */}
+  <div
+    className="
+      absolute
+      left-[58%]
+      top-20
+      h-[800px]
+      w-[800px]
+      -translate-x-1/2
+      rounded-full
+      bg-gradient-to-r
+      from-cyan-300/20
+      via-blue-400/20
+      to-blue-800/20
+      blur-3xl
+    "
+  />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 lg:grid-cols-2">
+  {/* Wafer-side cyan glow */}
+  <div
+    className="
+      absolute
+      right-0
+      top-40
+      h-[460px]
+      w-[460px]
+      rounded-full
+      bg-cyan-400/10
+      blur-3xl
+    "
+  />
+
+</div>
+
+     
+
+     <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-6 pb-20 pt-28 lg:grid-cols-[1.1fr_0.9fr]">
 
 
         {/* Left Content */}
@@ -21,23 +64,28 @@ export default function Hero() {
           </p>
 
 
-          <h1 className="text-5xl font-bold leading-tight text-blue-950 md:text-6xl">
+          <h1 className="text-5xl font-extrabold leading-[0.95] tracking-[-0.04em] text-blue-950 md:text-6xl xl:text-7xl">
 
-            Engineering Australia's
-            <br />
+  <span className="block text-[0.72em] font-semibold tracking-normal text-slate-700">
+    Engineering Australia&apos;s
+  </span>
 
-            Sovereign Semiconductor Capability
+  <span className="block bg-gradient-to-r from-blue-900 via-blue-700 to-cyan-500 bg-clip-text text-transparent">
+    Sovereign Semiconductor
+  </span>
 
-          </h1>
+  <span className="block">
+    Capability
+  </span>
+
+</h1>
 
 
-          <p className="mt-8 max-w-xl text-lg leading-relaxed text-gray-600">
-
-            QSI is developing Australia's flexible compound semiconductor
-            foundry, enabling advanced manufacturing capability across
-            defence, photonics, AI, space and critical industries.
-
-          </p>
+          <p className="mt-8 max-w-xl text-lg leading-relaxed text-slate-600">
+  Building Australia&apos;s sovereign compound semiconductor
+  manufacturing capability for defence, AI, photonics,
+  space and the industries shaping tomorrow.
+</p>
 
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -82,39 +130,60 @@ export default function Hero() {
 
 
           {/* Capability highlights */}
-          <div className="mt-14 grid grid-cols-2 gap-6">
+<div className="mt-12 grid grid-cols-2 gap-4">
+
+  <div className="rounded-2xl border border-blue-100 bg-white/70 px-5 py-4 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg">
+    <Cpu className="mb-2 h-6 w-6 text-blue-600" />
+
+    <p className="font-semibold text-blue-950">
+      Compound Semiconductors
+    </p>
+
+    <p className="mt-1 text-sm leading-relaxed text-slate-500">
+      GaN, SiC and advanced compound semiconductor technologies.
+    </p>
+  </div>
 
 
-            <div>
-              <p className="font-semibold text-blue-950">
-                Compound Semiconductors
-              </p>
-            </div>
+  <div className="rounded-2xl border border-blue-100 bg-white/70 px-5 py-4 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg">
+    <Factory className="mb-2 h-6 w-6 text-blue-600" />
+
+    <p className="font-semibold text-blue-950">
+      Flexible Manufacturing
+    </p>
+
+    <p className="mt-1 text-sm leading-relaxed text-slate-500">
+      Agile fabrication from prototype through specialist production.
+    </p>
+  </div>
 
 
-            <div>
-              <p className="font-semibold text-blue-950">
-                Flexible Manufacturing
-              </p>
-            </div>
+  <div className="rounded-2xl border border-blue-100 bg-white/70 px-5 py-4 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg">
+    <Zap className="mb-2 h-6 w-6 text-blue-600" />
+
+    <p className="font-semibold text-blue-950">
+      Rapid Prototyping
+    </p>
+
+    <p className="mt-1 text-sm leading-relaxed text-slate-500">
+      Accelerating the pathway from research to manufacturable devices.
+    </p>
+  </div>
 
 
-            <div>
-              <p className="font-semibold text-blue-950">
-                Rapid Prototyping
-              </p>
-            </div>
+  <div className="rounded-2xl border border-blue-100 bg-white/70 px-5 py-4 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg">
+    <MapPinned className="mb-2 h-6 w-6 text-blue-600" />
 
+    <p className="font-semibold text-blue-950">
+      Australian Capability
+    </p>
 
-            <div>
-              <p className="font-semibold text-blue-950">
-                Australian Capability
-              </p>
-            </div>
+    <p className="mt-1 text-sm leading-relaxed text-slate-500">
+      Building trusted domestic semiconductor capability and expertise.
+    </p>
+  </div>
 
-
-          </div>
-
+</div>
 
         </div>
 
@@ -122,7 +191,7 @@ export default function Hero() {
 
                {/* Right Visual */}
         {/* Right Visual */}
-<div className="relative flex items-center justify-center">
+<div className="relative flex items-center justify-center lg:-translate-x-12 lg:-translate-y-2">
   <SemiconductorWafer />
 </div>
 
