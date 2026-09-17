@@ -15,21 +15,21 @@ const opportunities = [
     number: "01",
     title: "Investment & Strategic Capital",
     description:
-      "Partner with QSI to help establish sovereign semiconductor manufacturing capability and participate in Australia's advanced technology future.",
+      "Partner with QSi to help establish sovereign semiconductor manufacturing capability and participate in Australia's advanced technology future.",
   },
   {
     icon: Handshake,
     number: "02",
     title: "Industry Partnerships",
     description:
-      "Collaborate with QSI on specialist semiconductor solutions, technology development and secure manufacturing pathways.",
+      "Collaborate with QSi on specialist semiconductor solutions, technology development and secure manufacturing pathways.",
   },
   {
     icon: Landmark,
     number: "03",
     title: "Government & Research",
     description:
-      "Work with QSI on strategic programs, research translation and initiatives that strengthen Australian semiconductor capability.",
+      "Work with QSi on strategic programs, research translation and initiatives that strengthen Australian semiconductor capability.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function InvestmentOpportunity() {
           </h2>
 
           <p className="mx-auto mt-7 max-w-3xl text-lg leading-relaxed text-blue-100">
-            QSI is creating the flexible manufacturing platform needed to
+            QSi is creating the flexible manufacturing platform needed to
             translate Australian semiconductor innovation into sovereign,
             commercially relevant capability.
           </p>
@@ -172,7 +172,7 @@ export default function InvestmentOpportunity() {
           <div className="max-w-2xl">
 
             <p className="text-xl font-bold text-white">
-              Ready to explore a partnership with QSI?
+              Ready to explore a partnership with QSi?
             </p>
 
             <p className="mt-2 leading-relaxed text-blue-100/80">
@@ -230,7 +230,7 @@ export default function InvestmentOpportunity() {
   "
 >
   <FileText className="h-5 w-5" />
-  Investment Prospectus
+  Investment
 </Link>
 
           </div>
