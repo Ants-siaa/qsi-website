@@ -104,7 +104,7 @@ export default function Hero() {
                 hover:bg-blue-800
               "
             >
-              Partner with QSI →
+              Partner with QSi →
             </Link>
 
 
