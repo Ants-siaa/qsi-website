@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
         {/* Logo */}
-        <Link href="/" aria-label="QSI Semiconductors home">
+        <Link href="/" aria-label="QSi Semiconductors home">
           <QSILogo />
         </Link>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
     hover:shadow-lg
   "
 >
-  Investment Prospectus
+  Investment
 </Link>
 
         </div>
@@ -148,7 +148,7 @@ export default function Navbar() {
     hover:shadow-lg
   "
 >
-  Investment Prospectus
+  Investment
 </Link>
 
           </div>

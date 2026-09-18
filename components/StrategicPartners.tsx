@@ -79,7 +79,7 @@ export default function StrategicPartners() {
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
             Semiconductor manufacturing requires an interconnected ecosystem.
-            QSI is building the partnerships needed to connect Australian
+            QSi is building the partnerships needed to connect Australian
             innovation with manufacturing capability and global expertise.
           </p>
 
@@ -187,7 +187,7 @@ export default function StrategicPartners() {
               <Network className="h-6 w-6 text-cyan-300" />
 
               <span className="font-semibold">
-                Connected through QSI
+                Connected through QSi
               </span>
             </div>
 

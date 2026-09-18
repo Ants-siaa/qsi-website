@@ -99,7 +99,7 @@ export default function TechnologyPlatform() {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            QSI is creating an Australian pathway that connects semiconductor
+            QSi is creating an Australian pathway that connects semiconductor
             design, rapid development, flexible fabrication, testing and
             deployment.
           </p>

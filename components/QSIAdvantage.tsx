@@ -57,8 +57,8 @@ export default function QSIAdvantage() {
         {/* Section introduction */}
         <div className="max-w-3xl">
 
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
-            The QSI Advantage
+          <p className="text-sm font-semibold tracking-[0.25em] text-blue-600">
+            The QSi Advantage
           </p>
 
           <h2 className="mt-4 text-4xl font-bold tracking-tight text-blue-950 md:text-5xl">
@@ -66,7 +66,7 @@ export default function QSIAdvantage() {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            QSI combines flexible manufacturing, compound semiconductor
+            QSi combines flexible manufacturing, compound semiconductor
             expertise and strategic partnerships to create an Australian
             pathway from innovation to production.
           </p>
