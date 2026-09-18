@@ -80,6 +80,10 @@ export default function InvestmentOpportunity() {
             translate Australian semiconductor innovation into sovereign,
             commercially relevant capability.
           </p>
+          <p className="mx-auto mt-7 max-w-3xl text-lg leading-relaxed text-blue-100">
+            QSi is maintaining a data room with full due diligence materials accessible via NDA.  
+            Contact us for access.
+          </p>
         </div>
 
         {/* Partnership pathways */}
