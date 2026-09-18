@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div>
             <p className="text-xl font-bold text-blue-950">
-              QSI Semiconductors
+              QSi Semiconductors
             </p>
 
             <p className="mt-1 text-sm text-slate-500">
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-slate-200 pt-6 text-sm text-slate-500">
-          © 2026 QSI Semiconductors. All rights reserved.
+          © 2026 QSi Semiconductors. All rights reserved.
         </div>
 
       </div>

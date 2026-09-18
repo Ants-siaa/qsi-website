@@ -81,7 +81,7 @@ export default function TeamSection() {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            QSI brings together semiconductor manufacturing expertise,
+            QSi brings together semiconductor manufacturing expertise,
             commercial leadership and strong governance to build Australia&apos;s
             sovereign semiconductor capability.
           </p>
@@ -164,7 +164,7 @@ export default function TeamSection() {
             </h3>
 
             <p className="mt-4 leading-relaxed text-slate-600">
-              QSI will continue to expand its advisory network as the company
+              QSi will continue to expand its advisory network as the company
               develops its technology, partnerships and manufacturing capability.
             </p>
           </div>

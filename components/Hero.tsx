@@ -59,8 +59,8 @@ export default function Hero() {
         <div>
 
 
-          <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
-            QSI Semiconductors
+          <p className="mb-6 text-sm font-semibold tracking-[0.25em] text-blue-600">
+            QSi Semiconductors
           </p>
 
 

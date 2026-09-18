@@ -42,8 +42,8 @@ export default function WhyQSI() {
 
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
-            Why QSI
+          <p className="text-sm font-semibold tracking-[0.25em] text-blue-600">
+            Why QSi
           </p>
 
           <h2 className="mt-4 text-4xl font-bold tracking-tight text-blue-950 md:text-5xl">
@@ -51,7 +51,7 @@ export default function WhyQSI() {
           </h2>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            QSI is being built to close a strategic gap in Australia&apos;s
+            QSi is being built to close a strategic gap in Australia&apos;s
             technology ecosystem: the ability to prototype and manufacture
             specialised semiconductor devices domestically.
           </p>

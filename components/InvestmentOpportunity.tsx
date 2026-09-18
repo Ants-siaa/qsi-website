@@ -6,8 +6,8 @@ import {
   FileText,
 } from "lucide-react";
 
-import CircuitBackground from "./ui/CircuitBackground";
 import Link from "next/link";
+import CircuitBackground from "./ui/CircuitBackground";
 
 const opportunities = [
   {
@@ -62,10 +62,8 @@ export default function InvestmentOpportunity() {
       />
 
       <div className="relative mx-auto max-w-7xl px-6">
-
         {/* Heading */}
         <div className="mx-auto max-w-4xl text-center">
-
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
             Investment Opportunity
           </p>
@@ -82,12 +80,10 @@ export default function InvestmentOpportunity() {
             translate Australian semiconductor innovation into sovereign,
             commercially relevant capability.
           </p>
-
         </div>
 
         {/* Partnership pathways */}
         <div className="mt-16 grid gap-6 lg:grid-cols-3">
-
           {opportunities.map((opportunity) => {
             const Icon = opportunity.icon;
 
@@ -110,7 +106,6 @@ export default function InvestmentOpportunity() {
                 "
               >
                 <div className="flex items-start justify-between">
-
                   <div
                     className="
                       flex
@@ -131,7 +126,6 @@ export default function InvestmentOpportunity() {
                   <span className="text-sm font-semibold tracking-[0.2em] text-blue-300/70">
                     {opportunity.number}
                   </span>
-
                 </div>
 
                 <h3 className="mt-7 text-2xl font-bold text-white">
@@ -141,11 +135,9 @@ export default function InvestmentOpportunity() {
                 <p className="mt-4 leading-relaxed text-blue-100/80">
                   {opportunity.description}
                 </p>
-
               </div>
             );
           })}
-
         </div>
 
         {/* Final CTA */}
@@ -168,9 +160,7 @@ export default function InvestmentOpportunity() {
             lg:px-10
           "
         >
-
           <div className="max-w-2xl">
-
             <p className="text-xl font-bold text-white">
               Ready to explore a partnership with QSi?
             </p>
@@ -179,64 +169,59 @@ export default function InvestmentOpportunity() {
               Speak with the founding team about investment, industry
               collaboration or strategic engagement.
             </p>
-
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="mailto:info@qld-semi.com"
+              className="
+                inline-flex
+                items-center
+                gap-2
+                rounded-full
+                bg-white
+                px-7
+                py-4
+                font-semibold
+                text-blue-950
+                transition
+                duration-300
+                hover:-translate-y-0.5
+                hover:shadow-xl
+              "
+            >
+              Contact QSi
+              <ArrowRight className="h-5 w-5" />
+            </Link>
 
             <Link
-  href="mailto:info@qld-semi.com"
-  className="
-    inline-flex
-    items-center
-    gap-2
-    rounded-full
-    bg-white
-    px-7
-    py-4
-    font-semibold
-    text-blue-950
-    transition
-    duration-300
-    hover:-translate-y-0.5
-    hover:shadow-xl
-  "
->
-  Contact QSI
-  <ArrowRight className="h-5 w-5" />
-</Link>
-
-<Link
-  href="/documents/QSI-Investment-Prospectus.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
-    inline-flex
-    items-center
-    gap-2
-    rounded-full
-    border
-    border-blue-300/50
-    bg-blue-900/30
-    px-7
-    py-4
-    font-semibold
-    text-white
-    transition
-    duration-300
-    hover:-translate-y-0.5
-    hover:border-blue-200
-    hover:bg-blue-800/50
-  "
->
-  <FileText className="h-5 w-5" />
-  Investment
-</Link>
-
+              href="/documents/QSI-Investment-Prospectus.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex
+                items-center
+                gap-2
+                rounded-full
+                border
+                border-blue-300/50
+                bg-blue-900/30
+                px-7
+                py-4
+                font-semibold
+                text-white
+                transition
+                duration-300
+                hover:-translate-y-0.5
+                hover:border-blue-200
+                hover:bg-blue-800/50
+              "
+            >
+              <FileText className="h-5 w-5" />
+              Investment
+            </Link>
           </div>
-
         </div>
-
       </div>
     </section>
   );

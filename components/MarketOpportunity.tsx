@@ -186,7 +186,7 @@ export default function MarketOpportunity() {
         <Cpu className="h-8 w-8 text-cyan-300" />
 
         <p className="mt-3 text-2xl font-bold text-white">
-          QSI
+          QSi
         </p>
 
         <p className="mt-1 px-5 text-xs font-medium uppercase tracking-[0.15em] text-blue-100">
@@ -236,7 +236,7 @@ export default function MarketOpportunity() {
         <Cpu className="mx-auto h-8 w-8 text-cyan-300" />
 
         <p className="mt-3 text-2xl font-bold text-white">
-          QSI
+          QSi
         </p>
 
         <p className="mt-1 text-sm text-blue-100">
